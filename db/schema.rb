@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 20150531113005) do
     t.string   "name"
     t.integer  "pop"
     t.integer  "user_id"
-    t.string   "unique"
     t.string   "cover"
     t.datetime "start_time"
     t.string   "intro"

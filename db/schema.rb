@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150530132409) do
+ActiveRecord::Schema.define(version: 20150531113005) do
 
   create_table "chapters", force: :cascade do |t|
     t.string   "thumb"
@@ -23,12 +23,9 @@ ActiveRecord::Schema.define(version: 20150530132409) do
 
   create_table "courses", force: :cascade do |t|
     t.string   "name"
-    t.string   "url"
     t.integer  "pop"
     t.integer  "user_id"
-    t.string   "youku_id"
     t.string   "unique"
-    t.string   "icon"
     t.string   "cover"
     t.datetime "start_time"
     t.string   "intro"

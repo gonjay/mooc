@@ -1,0 +1,26 @@
+zh-CN:
+  activerecord:
+    models:
+      user: 用户
+      school: 学校
+      course: 课程
+      chapter: 章
+      section: 节
+    attributes:
+      user:
+        email: 邮箱
+      course:
+        name: 课程名
+        cover: 封面
+        intro: 简介
+        start_time: 开课时间
+      chapter:
+        thumb: 封面
+        title: 章名称
+      section:
+        thumb: 封面
+        title: 节名称
+        time: 时长
+        youku_id: 优酷地址
+        content: 介绍
+        ppt_url: PPT 地址(百度文库)

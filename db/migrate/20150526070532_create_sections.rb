@@ -2,7 +2,7 @@ class CreateSections < ActiveRecord::Migration
   def change
     create_table :sections do |t|
       t.string :thumb
-      t.string :author
+      t.integer :chapter_id
       t.string :title
       t.datetime :date
       t.string :time

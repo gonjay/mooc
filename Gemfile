@@ -14,6 +14,7 @@ gem 'rails_admin'
 gem 'rest-client'
 gem 'nokogiri'
 gem 'youkuVideo'
+gem 'mysql2'
 
 group :development, :test do
   gem 'byebug'
